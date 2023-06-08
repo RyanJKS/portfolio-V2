@@ -1,0 +1,7 @@
+.project-page-title{
+    font-size: 2.75rem;
+    font-weight: 800;
+    text-align: center;
+    color: var(--black-color);
+    text-transform: capitalize;
+}
