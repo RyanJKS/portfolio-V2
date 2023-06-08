@@ -110,9 +110,27 @@ As a passionate software developer, I have accumulated a diverse range of skills
 
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+<!-- Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+_For more examples, please refer to the [Documentation](https://example.com)_ -->
+
+On the landing page, you start with a fully responsive and self-designed layout.
+
+PUT GIF HERE AND SHOW RESPONSIVE ASPECT.
+
+A projects section is available. Each project is accompanied by a brief description, outlining the challenges I encountered, the strategies I employed, and the successful outcomes achieved. I've incorporated visual elements and interactive features to enhance the user experience, allowing visitors to explore the projects in an engaging manner. You can also view the project source code as well as see the demo of the project itself.
+
+PUT PIC OF PROJECT SECTIONS
+
+To further demonstrate my capabilities, I've dedicated a section to highlight my skills. From technical proficiencies to soft skills, this area provides an overview of my competencies and expertise. Whether it's programming languages, design tools, or project management methodologies, you'll find a comprehensive list of my skill set.
+
+PUT PIC OF SKILLS SECTION
+
+Connecting with me is simple. I've included a contact page where you can reach out to discuss potential collaborations, ask questions, or simply say hello. You can use the provided contact form to send me a direct message, and I'll make sure to respond promptly.
+
+PUT PIC OF CONTACT ME FORM
+
+I'm excited to have you explore my portfolio website and learn more about my journey. Please feel free to browse through my projects, check out my skills, and get in touch. I look forward to connecting with you and potentially working together on future endeavors.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -137,7 +155,7 @@ In order to get started you will need to do the libraries mentioned above and co
 
 ### Prerequisites
 
-NPM is essential before any furtehr steps are made since it is used to install all the necessary libraries for this project.
+NPM is essential before any further steps are made since it is used to install all the necessary libraries for this project.
 
 - npm
   ```sh
@@ -178,11 +196,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
-CONTACT
-
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Jhelan Suggun - [@linkedIn](https://www.linkedin.com/in/jhelan-suggun-jks7n99/) - jksuggun@hotmail.co.uk
 
 Project Link: [https://github.com/RyanJKS/portfolio-v2](https://github.com/RyanJKS/portfolio-v2)
 
