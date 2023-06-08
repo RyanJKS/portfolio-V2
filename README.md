@@ -29,9 +29,9 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-<!--   <a href="https://github.com/RyanJKS/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a> -->
+  <a href="https://github.com/RyanJKS/repo_name">
+    <img src="/src/Assets/Images/logo.PNG" alt="Logo" width="80" height="80">
+  </a>
 
 <h3 align="center">Jhelan Portfolio</h3>
 
