@@ -58,8 +58,10 @@
       <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
+        <li><a href="#extra-packages">Extra Packages</a></li>
       </ul>
     </li>
+    <li><a href="#usage">Usage</a></li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
@@ -67,7 +69,6 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -80,7 +81,7 @@
 
 ## About The Project
 
-As a passionate professional in [your field or industry], I have accumulated a diverse range of skills and experiences that I'm excited to share with you. Through this website, you'll find comprehensive information about my background, expertise, and accomplishments.
+As a passionate software developer, I have accumulated a diverse range of skills and experiences that I'm excited to share with you. Through this website, you'll find comprehensive information about my background, expertise, and accomplishments.
 
 <!-- put gif video here -->
 <a href="https://github.com/RyanJKS/portfolio-v2">
@@ -92,42 +93,16 @@ As a passionate professional in [your field or industry], I have accumulated a d
 ### Built With
 
 - [![React][React.js]][React-url]
-- [![Material UI][Material-UI.js]][Material-ui-url]
+- [![Material UI][Material-UI.js]][Material-UI-url]
 - [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### Extra Packages
 
-<!-- GETTING STARTED -->
-
-## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-
-- npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/RyanJKS/portfolio-v2.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = "ENTER YOUR API";
-   ```
+- Framer Motion
+- React Icons
+- React Wavify
+- Sweet Alert
+- Email JS
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -151,6 +126,30 @@ _For more examples, please refer to the [Documentation](https://example.com)_
   - [ ] Nested Feature
 
 See the [open issues](https://github.com/RyanJKS/portfolio-v2/issues) for a full list of proposed features (and known issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## Getting Started
+
+In order to get started you will need to do the libraries mentioned above and configure your repository using the following steps:
+
+### Prerequisites
+
+NPM is essential before any furtehr steps are made since it is used to install all the necessary libraries for this project.
+
+- npm
+  ```sh
+  npm install npm@latest -g
+  ```
+
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/RyanJKS/portfolio-v2.git
+   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -213,11 +212,11 @@ Project Link: [https://github.com/RyanJKS/portfolio-v2](https://github.com/RyanJ
 [license-shield]: https://img.shields.io/github/license/RyanJKS/portfolio-v2.svg?style=for-the-badge
 [license-url]: https://github.com/RyanJKS/portfolio-v2/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/jks7n99
+[linkedin-url]: https://www.linkedin.com/in/jhelan-suggun-jks7n99/
 [product-screenshot]: images/screenshot.png
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
-[Material-UI.js]: https://m2.material.io/design/introduction/
-[Material-ur-url]: https://mui.com/material-ui/getting-started/overview/
+[Material-UI.js]: /src/Assets/Images/material-logo.png
+[Material-UI-url]: https://mui.com/material-ui/getting-started/overview/
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
