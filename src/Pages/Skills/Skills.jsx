@@ -12,7 +12,7 @@ function Skills() {
       <div className="page-title">Skills</div>
       <Grid container spacing={4}>
         {Skillset?.map((skill, index) => (
-          <Grid item xs={12} sm={6} md={4} lg={3} key={index}>
+          <Grid item xs={12} sm={6} md={6} lg={3} key={index}>
             <SkillCard Skill={skill} />
           </Grid>
         ))}

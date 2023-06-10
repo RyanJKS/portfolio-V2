@@ -27,14 +27,13 @@ function Contact() {
     };
     emailjs.send(SERVICE_ID, TEMPLATE_ID, conFom, USER_ID).then(
       (result) => {
-        console.log(result.text);
-        Swal.fire({
-          icon: "success",
-          title: "Message Sent Successfully",
-        });
+        Swal.fire(
+          "Message Successfully Sent",
+          "Thank you for checking my portfolio and sending a message. I will get back to you as soon as possible.",
+          "success"
+        );
       },
       (error) => {
-        console.log(error.text);
         Swal.fire({
           icon: "error",
           title: "Ooops, something went wrong",

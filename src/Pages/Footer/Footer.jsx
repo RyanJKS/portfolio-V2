@@ -1,30 +1,10 @@
 import React from "react";
-import Typography from "@mui/material/Typography";
 import Link from "@mui/material/Link";
 import Wave from "react-wavify";
 
-function Copyright(props) {
-  return (
-    <Typography
-      variant="body2"
-      color="text.secondary"
-      align="center"
-      height="5vh"
-      {...props}
-    >
-      {"Copyright © "}
-      <Link color="inherit" href="https://google.com/">
-        JKS Website
-      </Link>{" "}
-      {new Date().getFullYear()}
-      {"."}
-    </Typography>
-  );
-}
-
 function Footer() {
   return (
-    <>
+    <div style={{ position: "relative", width: "100%", height: "100%" }}>
       <Wave mask="url(#mask)" fill="#1277b0">
         <defs>
           <linearGradient id="gradient" gradientTransform="rotate(90)">
@@ -32,12 +12,43 @@ function Footer() {
             <stop offset="0.5" stopColor="black" />
           </linearGradient>
           <mask id="mask">
-            <rect x="0" y="0" width="2000" height="200" fill="url(#gradient)" />
+            <rect x="0" y="0" width="2000" height="100" fill="url(#gradient)" />
           </mask>
         </defs>
       </Wave>
-      <Copyright sx={{ mt: 8, mb: 4 }} />
-    </>
+      <div
+        style={{
+          position: "absolute",
+          top: "50%",
+          left: "50%",
+          transform: "translate(-50%, -50%)",
+          textAlign: "center",
+          width: "100%",
+          zIndex: 1,
+        }}
+      >
+        <a
+          href="https://www.linkedin.com/in/jhelan-suggun-jks7n99/"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            color: "black",
+            fontWeight: "bold",
+            fontSize: "16px",
+            textDecoration: "none",
+          }}
+        >
+          {"Copyright © "}
+          <Link
+            color="inherit"
+            href="https://www.linkedin.com/in/jhelan-suggun-jks7n99/"
+          >
+            JKS Website
+          </Link>{" "}
+          {new Date().getFullYear()}
+        </a>
+      </div>
+    </div>
   );
 }
 

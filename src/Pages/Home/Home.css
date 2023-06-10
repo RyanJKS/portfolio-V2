@@ -10,6 +10,10 @@
     /*space for nav bar*/
     padding: 6rem 2rem 0rem;
 }
+.intro-name-text{
+    font-size: 5rem;
+    padding-left: 5rem;
+}
 
 @media screen and (min-width: 2000px) {
     .intro{
@@ -26,6 +30,10 @@
 @media screen and (max-width: 450px) {
     .intro{
         padding: 6rem 1rem 2rem;
+        
+    }
+    .intro-name-text{
+        font-size: 2rem;
     }
 }
 

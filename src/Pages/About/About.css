@@ -1,3 +1,10 @@
+.about-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
 .about-title{
     font-size: 2.75rem;
     font-weight: 800;
@@ -7,13 +14,10 @@
     
 }
 
+
 @media screen and (max-width: 450px) {
     .about-title{
         font-size: 2rem;
     }
 }
 
-.about-section1{
-    padding: 1rem 2rem;
-    text-align: center;
-}

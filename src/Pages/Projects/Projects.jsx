@@ -13,7 +13,7 @@ function Projects() {
       <h2 className="project-page-title">Projects</h2>
       <Grid container spacing={4}>
         {ProjectsList?.map((project, index) => (
-          <Grid item xs={12} sm={6} md={4} lg={3} key={index}>
+          <Grid item xs={12} sm={6} md={6} lg={3} key={index}>
             <CardItem project={project} />
           </Grid>
         ))}

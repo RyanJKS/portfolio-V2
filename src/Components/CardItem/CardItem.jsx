@@ -19,36 +19,39 @@ function CardItem({ project }) {
 
   return (
     <Card className="card" key={id}>
-      <CardMedia component="img" height="250" image={image} alt={title} />
+      <CardMedia className="img-container">
+        <img src={image} alt={title} />
+      </CardMedia>
 
-      <CardContent sx={{ justifyContent: "center" }}>
+      <CardContent>
         <Typography variant="h5" component="div">
           {title}
         </Typography>
+        <br />
         <Typography gutterBottom variant="body2" color="text.secondary">
           {description}
         </Typography>
-        <br />
-        <Divider />
+
+        <Divider color="grey" />
         <Typography gutterBottom variant="h6" component="div">
           Stack
         </Typography>
-        <Typography variant="h8" color="text.secondary">
-          <Grid
-            container
-            direction="row"
-            justifyContent="space-evenly"
-            alignItems="center"
-          >
-            {tags?.map((tag, tagId) => (
-              <Grid item xs={6} lg={6} key={tagId}>
+        <Grid
+          container
+          direction="row"
+          justifyContent="space-evenly"
+          alignItems="center"
+        >
+          {tags?.map((tag, tagId) => (
+            <Grid item xs={6} lg={6} key={tagId}>
+              <Typography variant="body2" color="text.secondary">
                 {tag}
-              </Grid>
-            ))}
-          </Grid>
-        </Typography>
+              </Typography>
+            </Grid>
+          ))}
+        </Grid>
       </CardContent>
-      <Divider />
+      <Divider color="black" />
       <CardActions sx={{ justifyContent: "space-evenly" }}>
         <Tooltip title="View code">
           <Button onClick={() => window.open(sourceCode, "_blank")}>

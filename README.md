@@ -83,7 +83,7 @@
 
 As a passionate software developer, I have accumulated a diverse range of skills and experiences that I'm excited to share with you. Through this website, you'll find comprehensive information about my background, expertise, and accomplishments.
 
-<!-- put gif video here -->
+<!-- put gif video here og how it fully works -->
 <a href="https://github.com/RyanJKS/portfolio-v2">
     <img src="/src/Assets/Images/logo.PNG" alt="Logo" width="140" height="80">
   </a>
