@@ -11,35 +11,33 @@ const About = () => {
     <div className="about-container">
       <h2 className="about-title">A little about me</h2>
       <h4>
-        I am a mechanical engineering graduate with a deep passion for software
-        development. During my university years, I discovered my love for
-        programming and since then I have been honing my skills through
-        university projects and personal initiatives.
+        I am a Mechanical Engineering Master's graduate with a big passion for
+        software development. Over the past four years, I taught myself
+        programming and worked on different projects, both during university and
+        in my free time.
         <br />
         <br />
-        I have gained extensive knowledge in creating fully responsive
-        applications using frameworks like React. I am a self-taught developer,
-        always eager to learn and stay up-to-date with the latest technologies.
-        My expertise includes React, JavaScript, Material UI, MongoDB, Node.js,
-        MySQL, Express, and leveraging API data for dynamic charting.
+        I've learned to apply my engineering knowledge to software, creating
+        smart, easy-to-use solutions. My skills cover both front-end and
+        back-end development, and I'm especially handy with JavaScript and
+        React. I always make sure the websites and apps I build work well on any
+        device.
         <br />
         <br />
-        Driven by a commitment to clean and scalable code, I strive to build
-        innovative applications that are user-friendly and offer unique data
-        visualization. Although I am transitioning into software development, my
-        mechanical engineering background equips me with strong problem-solving
-        and analytical skills.
+        Beyond coding, I've picked up many useful skills from various part-time
+        jobs. As a support worker, gym receptionist, and currently an NHS
+        Emergency Department receptionist, I've developed my problem-solving,
+        time management, and people skills.
         <br />
         <br />
-        Although my experience may be limited, I bring a strong work ethic, a
-        genuine passion for programming, and a dedication to continuous
-        learning. I am excited about the opportunity to collaborate on
-        meaningful projects and contribute my skills to deliver exceptional
-        software solutions.
+        Even though my journey from mechanical engineering to software
+        development might seem unusual, it's this unique path that makes me a
+        strong software engineer. I'm excited to use my mix of engineering
+        know-how, problem-solving, and design skills to create great software.
         <br />
         <br />
-        Let's work together to create impactful applications that meet your
-        needs and exceed expectations.
+        Feel free to explore my website and projects to see what I can do. I'm
+        looking forward to working together to build something amazing!
       </h4>
 
       <Stack direction="row" justifyContent="space-evenly" paddingTop="2rem">

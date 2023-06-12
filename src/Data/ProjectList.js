@@ -1,13 +1,14 @@
-import test from "../Assets/test.PNG";
-import test2 from "../Assets/test2.PNG";
+import fireblog from "../Assets/fireblog-banner.PNG";
 import stockSenceBanner from "../Assets/stock-sense-banner.PNG";
+import quizMasterBanner from "../Assets/quiz-game-banner.PNG";
+import cryptoTrackerBanner from "../Assets/crypto-tracker-banner.PNG";
 
 export const ProjectsList = [
   {
     title: "FireBlog",
     description:
       "FireBlog is a fully responsive and dynamic application that utilizes Firebase for secure user authentication, whether through custom profiles or popular external platforms like Google, GitHub, or Facebook. Experience the convenience of creating, updating, and deleting personalized posts, with the added ability to securely upload images.",
-    image: test,
+    image: fireblog,
     tags: ["React", "Firebase", "Material UI"],
     sourceCode: "https://github.com/RyanJKS/firebase-blog",
     visit: "https://firebase-blog-coral.vercel.app/",
@@ -27,7 +28,7 @@ export const ProjectsList = [
     title: "QuizMaster",
     description:
       "QuizMaster is a captivating and responsive React app. Create a username and password for personalized gameplay. Compete in 10-question quizzes, track time and correct answers. View a personalized dashboard with charts. Secure login with bcrypt and JWT. Join QuizMaster to become the ultimate quiz champion!",
-    image: test,
+    image: quizMasterBanner,
     tags: ["React", "NodeJS", "MongoDB", "RESTFul API"],
     sourceCode: "https://github.com/RyanJKS/mern-quiz-app",
     visit: "https://mern-quiz-app-nine.vercel.app/",
@@ -37,10 +38,10 @@ export const ProjectsList = [
     title: "Crypto Tracker",
     description:
       "Crypto Tracker is a fully responsive React app where you can effortlessly create a personalized watchlist for crypto. Real-time line and candlestick charts are used to provide insights into crypto price action. With a sleek design and seamless user experience, Crypto Tracker is your gateway to the world of cryptocurrencies.",
-    image: test2,
+    image: cryptoTrackerBanner,
     tags: ["React", "NodeJS", "Express", "RESTful API"],
     sourceCode: "https://github.com/RyanJKS/stocks-app",
-    visit: "https://google.com",
+    visit: "https://crypto-tracker-app-gamma.vercel.app/",
     id: 3,
   },
 ];
