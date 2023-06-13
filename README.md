@@ -124,7 +124,7 @@ This project is fully responsive and is adjustable to suit your needs on any dev
 A projects section is available. Each project is accompanied by a brief description, outlining the challenges I encountered, the strategies I employed, and the successful outcomes achieved. I've incorporated visual elements and interactive features to enhance the user experience, allowing visitors to explore the projects in an engaging manner. You can also view the project source code as well as see the demo of the project itself.
 
 <div align="center">
-  <img src="/src/Assets/project-sections.PNG" alt="Project">
+  <img src="/src/Assets/projects-sections.PNG" alt="Project">
 </div>
 
 To further demonstrate my capabilities, I've dedicated a section to highlight my skills. From technical proficiencies to soft skills, this area provides an overview of my competencies and expertise. Whether it's programming languages, design tools, or project management methodologies, you'll find a comprehensive list of my skill set.
