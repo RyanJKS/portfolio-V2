@@ -41,10 +41,10 @@
     <br/>
     I am Jhelan and this platform is designed using React, enabling me to showcase my skills, projects, and provide an easy way to get in touch with me.
     <br />
-    <a href="https://github.com/RyanJKS/portfolio-v2"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/RyanJKS/portfolio-v2/tree/master/src"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/RyanJKS/portfolio-v2">View Demo</a>
+    <a href="https://jhelan.dev/">View Demo</a>
     ·
     <a href="https://github.com/RyanJKS/portfolio-v2/issues">Report Bug</a>
     ·
@@ -97,8 +97,9 @@ As a passionate software developer, I have accumulated a diverse range of skills
 ### Built With
 
 - [![React][React.js]][React-url]
-- [![Material UI][Material-UI.js]][Material-UI-url] Material UI
 - [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+- [![Material UI][Material-UI.js]][Material-UI-url]
+- [![React Router][ReactRouter.js]][ReactRouter-url]
 
 ### Extra Packages
 
@@ -118,21 +119,25 @@ As a passionate software developer, I have accumulated a diverse range of skills
 
 _For more examples, please refer to the [Documentation](https://example.com)_ -->
 
-On the landing page, you start with a fully responsive and self-designed layout.
-
-PUT GIF HERE AND SHOW RESPONSIVE ASPECT.
+This project is fully responsive and is adjustable to suit your needs on any device.
 
 A projects section is available. Each project is accompanied by a brief description, outlining the challenges I encountered, the strategies I employed, and the successful outcomes achieved. I've incorporated visual elements and interactive features to enhance the user experience, allowing visitors to explore the projects in an engaging manner. You can also view the project source code as well as see the demo of the project itself.
 
-PUT PIC OF PROJECT SECTIONS
+<div align="center">
+  <img src="/src/Assets/project-section.PNG" alt="Project">
+</div>
 
 To further demonstrate my capabilities, I've dedicated a section to highlight my skills. From technical proficiencies to soft skills, this area provides an overview of my competencies and expertise. Whether it's programming languages, design tools, or project management methodologies, you'll find a comprehensive list of my skill set.
 
-PUT PIC OF SKILLS SECTION
+<div align="center">
+  <img src="/src/Assets/skill-section.PNG" alt="Skills">
+</div>
 
 Connecting with me is simple. I've included a contact page where you can reach out to discuss potential collaborations, ask questions, or simply say hello. You can use the provided contact form to send me a direct message, and I'll make sure to respond promptly.
 
-PUT PIC OF CONTACT ME FORM
+<div align="center">
+  <img src="/src/Assets/contact-section.PNG" alt="Contact">
+</div>
 
 I'm excited to have you explore my portfolio website and learn more about my journey. Please feel free to browse through my projects, check out my skills, and get in touch. I look forward to connecting with you and potentially working together on future endeavors.
 
@@ -236,7 +241,9 @@ Project Link: [https://github.com/RyanJKS/portfolio-v2](https://github.com/RyanJ
 [product-screenshot]: images/screenshot.png
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
-[Material-UI.js]: /src/Assets/Images/material-logo.png
-[Material-UI-url]: https://mui.com/material-ui/getting-started/overview/
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
+[Material-UI.js]: https://img.shields.io/badge/MUI-007FFF?style=for-the-badge&logo=MUI&logoColor=white
+[Material-UI-url]: https://mui.com/material-ui/getting-started/overview/
+[ReactRouter.js]: https://img.shields.io/badge/ReactRouter-007FFF?style=for-the-badge&logo=React-Router&logoColor=white
+[ReactRouter-url]: https://reactrouter.com/en/main
