@@ -37,7 +37,9 @@
 <h3 align="center">Jhelan Portfolio</h3>
 
   <p align="center">
-    Welcome to my portfolio website! I am Jhelan and this platform is designed using React, enabling me to showcase my skills, projects, and provide an easy way to get in touch with me.
+    Welcome to my portfolio website's code!
+    <br/>
+    I am Jhelan and this platform is designed using React, enabling me to showcase my skills, projects, and provide an easy way to get in touch with me.
     <br />
     <a href="https://github.com/RyanJKS/portfolio-v2"><strong>Explore the docs »</strong></a>
     <br />
@@ -84,9 +86,11 @@
 As a passionate software developer, I have accumulated a diverse range of skills and experiences that I'm excited to share with you. Through this website, you'll find comprehensive information about my background, expertise, and accomplishments.
 
 <!-- put gif video here og how it fully works -->
-<a href="https://github.com/RyanJKS/portfolio-v2">
-    <img src="/src/Assets/Images/logo.PNG" alt="Logo" width="140" height="80">
-  </a>
+
+<!-- ![portfolio](https://github.com/RyanJKS/Portfolio/assets/95311295/1b664ac7-366d-47ac-89a8-2401bf4ed89a) -->
+<div align="center">
+  <img src="/src/Assets/Videos/portfolio.gif" alt="Portfolio GIF">
+</div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
