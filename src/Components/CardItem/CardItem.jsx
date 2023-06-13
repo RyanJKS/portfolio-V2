@@ -5,6 +5,7 @@ import {
   CardMedia,
   CardContent,
   CardActions,
+  CardActionArea,
   Typography,
   Grid,
   Button,
@@ -19,9 +20,14 @@ function CardItem({ project }) {
 
   return (
     <Card className="card" key={id}>
-      <CardMedia className="img-container">
-        <img src={image} alt={title} />
-      </CardMedia>
+      <CardActionArea
+        className="img-container"
+        onClick={() => window.open(visit, "_blank")}
+      >
+        <CardMedia>
+          <img src={image} alt={title} />
+        </CardMedia>
+      </CardActionArea>
 
       <CardContent>
         <Typography variant="h5" component="div">

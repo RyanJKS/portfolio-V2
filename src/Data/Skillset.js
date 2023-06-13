@@ -30,26 +30,54 @@ export const Skillset = [
   {
     stack: "Back-End",
     items: [
-      { logo: nodeLogo, iconName: "NodeJS" },
-      { logo: express, iconName: "ExpressJS" },
+      {
+        logo: nodeLogo,
+        iconName: "NodeJS",
+        url: "https://github.com/RyanJKS/social-stock-analysis",
+      },
+      {
+        logo: express,
+        iconName: "ExpressJS",
+        url: "https://github.com/RyanJKS/social-stock-analysis",
+      },
     ],
   },
   {
     stack: "Databases",
     items: [
       { logo: mysql, iconName: "MySQL" },
-      { logo: mongodb, iconName: "MongoDB" },
-      { logo: firebase, iconName: "Firebase" },
+      {
+        logo: mongodb,
+        iconName: "MongoDB",
+        url: "https://github.com/RyanJKS/mern-quiz-app",
+      },
+      {
+        logo: firebase,
+        iconName: "Firebase",
+        url: "https://github.com/RyanJKS/firebase-blog",
+      },
     ],
   },
   {
     stack: "Other Technologies",
     items: [
-      { logo: python, iconName: "Python" },
-      { logo: c, iconName: "C Programming" },
+      {
+        logo: python,
+        iconName: "Python",
+        url: "https://github.com/RyanJKS/Line-Tracking-Robot",
+      },
+      {
+        logo: c,
+        iconName: "C Programming",
+        url: "https://github.com/RyanJKS/Line-Tracking-Robot",
+      },
       { logo: aws, iconName: "AWS" },
       { logo: gitLogo, iconName: "Git" },
-      { logo: githubLogo, iconName: "GitHub" },
+      {
+        logo: githubLogo,
+        iconName: "GitHub",
+        url: "https://github.com/RyanJKS",
+      },
     ],
   },
 ];

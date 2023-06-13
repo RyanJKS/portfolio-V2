@@ -17,7 +17,7 @@ export default function Navbar() {
       <div className="navbar-logo">
         <a href="#Home">
           <img
-            src={require("../../Assets/Images/signature-logo.png")}
+            src={require("../../Assets/Images/typeface-logo.png")}
             alt="logo"
           />
         </a>

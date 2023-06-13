@@ -4,7 +4,6 @@ import AppWrap from "../../Wrapper/AppWrap/AppWrap";
 import BackgroundCard from "../../Wrapper/BackgroundCard/BackgroundCard";
 import Stack from "@mui/material/Stack";
 import { Button } from "@mui/material";
-import resume from "../../Assets/Jhelan Suggun CV.pdf";
 
 const About = () => {
   return (
@@ -42,8 +41,8 @@ const About = () => {
 
       <Stack direction="row" justifyContent="space-evenly" paddingTop="2rem">
         <Button variant="outlined">
-          <a href={resume} download={resume}>
-            Vew Resume
+          <a href="Resume" target="_blank">
+            View Resume
           </a>
         </Button>
         <Button variant="outlined">

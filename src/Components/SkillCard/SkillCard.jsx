@@ -22,7 +22,17 @@ function SkillCard({ Skill }) {
 
         {items?.map((skill, index) => (
           <div key={index}>
-            <img src={skill.logo} alt={skill.iconName} />
+            <a
+              href={
+                skill.url
+                  ? skill.url
+                  : "https://github.com/RyanJKS/portfolio-v2"
+              }
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={skill.logo} alt={skill.iconName} />
+            </a>
             <h4 key={index + 100}>{skill.iconName}</h4>
           </div>
         ))}
