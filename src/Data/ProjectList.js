@@ -40,7 +40,7 @@ export const ProjectsList = [
       "Crypto Tracker is a fully responsive React app where you can effortlessly create a personalized watchlist for crypto. Real-time line and candlestick charts are used to provide insights into crypto price action. With a sleek design and seamless user experience, Crypto Tracker is your gateway to the world of cryptocurrencies.",
     image: cryptoTrackerBanner,
     tags: ["React", "NodeJS", "Express", "RESTful API"],
-    sourceCode: "https://github.com/RyanJKS/stocks-app",
+    sourceCode: "https://github.com/RyanJKS/crypto-tracker-app",
     visit: "https://crypto-tracker-app-gamma.vercel.app/",
     id: 3,
   },
