@@ -8,7 +8,7 @@ function SkillCard({ Skill }) {
   return (
     <Card
       sx={{
-        minHeight: 730,
+        minHeight: 750,
         minWidth: 300,
         textAlign: "center",
         boxShadow: "rgb(38, 57, 77) 0px 20px 30px -10px",

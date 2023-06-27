@@ -1,9 +1,10 @@
 import html from "../Assets/Images/html-logo.png";
 import css from "../Assets/Images/css-logo.png";
 import javascript from "../Assets/Images/javascript-logo.png";
+import typescript from "../Assets/Images/typescript-logo.png";
 import reactJS from "../Assets/Images/react-logo.png";
-import bootstrap from "../Assets/Images/bootstrap-logo.png";
-import material from "../Assets/Images/material-logo.png";
+import graphQL from "../Assets/Images/graphql-logo.png";
+import sass from "../Assets/Images/sass-logo.png";
 import nodeLogo from "../Assets/Images/node-logo.png";
 import express from "../Assets/Images/express-logo.png";
 import mysql from "../Assets/Images/msql-logo.png";
@@ -22,9 +23,10 @@ export const Skillset = [
       { logo: html, iconName: "HTML" },
       { logo: css, iconName: "CSS" },
       { logo: javascript, iconName: "JavaScript" },
+      { logo: typescript, iconName: "Typescript" },
       { logo: reactJS, iconName: "React" },
-      { logo: bootstrap, iconName: "Bootstrap" },
-      { logo: material, iconName: "Material UI" },
+      { logo: graphQL, iconName: "GraphQL" },
+      { logo: sass, iconName: "SASS" },
     ],
   },
   {
