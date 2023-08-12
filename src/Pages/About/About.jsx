@@ -16,27 +16,24 @@ const About = () => {
         in my free time.
         <br />
         <br />
-        I've learned to apply my engineering knowledge to software, creating
-        smart, easy-to-use solutions. My skills cover both front-end and
-        back-end development, and I'm especially handy with JavaScript and
-        React. I always make sure the websites and apps I build work well on any
-        device.
+        My background in engineering complements my software design skills, leading to functional and user-centric tech solutions. 
+        I am familliar with both front-end and back-end frameworks and worked mainly with JavaScript and React. 
+        Additionally, I also have experience working with Python and C in embedded systems for robotics projects.
         <br />
         <br />
-        Beyond coding, I've picked up many useful skills from various part-time
+        Beyond coding, I have picked up many useful skills from various part-time
         jobs. As a support worker, gym receptionist, and currently an NHS
-        Emergency Department receptionist, I've developed my problem-solving,
-        time management, and people skills.
+        Emergency Department receptionist, I have developed my problem-solving,
+        time management, and interpersonal skills.
         <br />
         <br />
         Even though my journey from mechanical engineering to software
         development might seem unusual, it's this unique path that makes me a
-        strong software engineer. I'm excited to use my mix of engineering
-        know-how, problem-solving, and design skills to create great software.
+        strong software engineer. I am excited to use my mix of engineering
+        know-how, problem-solving, and design skills to create great software solutions.
         <br />
         <br />
-        Feel free to explore my website and projects to see what I can do. I'm
-        looking forward to working together to build something amazing!
+        Feel free to explore my website and projects to see what I can do!
       </h4>
 
       <Stack direction="row" justifyContent="space-evenly" paddingTop="2rem">
