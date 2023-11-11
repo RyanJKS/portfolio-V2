@@ -1,22 +1,21 @@
-.about-container{
+.about-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 
-.about-title{
+.about-title {
     font-size: 2.75rem;
     font-weight: 800;
     text-align: center;
     color: var(--black-color);
     text-transform: capitalize;
-    
+
 }
 
 @media screen and (max-width: 450px) {
-    .about-title{
+    .about-title {
         font-size: 2rem;
     }
 }
-

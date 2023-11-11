@@ -17,7 +17,7 @@ function Home() {
             <div style={{ marginLeft: 20 }}>
               <p>Hello, I am</p>
               <h1 className="intro-name-text">Jhelan Suggun</h1>
-              <p className="intro-name-text">Fullstack Developer</p>
+              <p className="intro-name-text">Software Developer</p>
             </div>
           </div>
         </div>
