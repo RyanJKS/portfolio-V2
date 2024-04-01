@@ -71,7 +71,7 @@ function Contact() {
           comment={"Connect to LinkedIn"}
           handleClick={() =>
             window.open(
-              "https://www.linkedin.com/in/jhelan-suggun-jks7n99/",
+              "https://www.linkedin.com/in/jsuggun/",
               "_blank"
             )
           }
